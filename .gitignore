@@ -1,4 +1,4 @@
-# ========== STM32CubeMX 临时文件 ==========
+## ========== STM32CubeMX 临时文件 ==========
 *.ioc.bak
 *.ioc~
 .MX/
@@ -40,3 +40,7 @@ RTE/
 *.swp
 *~
 .DS_Store
+
+# ===== 新增：库文件（作业不要上传HAL库）=====
+**Drivers/
+**Middlewares/
