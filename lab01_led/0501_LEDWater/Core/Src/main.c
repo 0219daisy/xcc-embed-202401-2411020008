@@ -97,16 +97,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  static uint8_t tab[] = {0xFE,0xFD,0xFB,0xF7,0xEF,0xDF,0xBF,0x7F};
-static uint8_t i=0;
-GPIOF->ODR = tab[i];
-HAL_Delay(1000);
-i++;
-if(i >= 8)
-{
-    i = 0;
-}
-}
+  }
   /* USER CODE END 3 */
 }
 

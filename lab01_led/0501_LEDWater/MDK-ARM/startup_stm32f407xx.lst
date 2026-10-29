@@ -849,11 +849,11 @@ erwork --depend=0501_ledwater\startup_stm32f407xx.d -o0501_ledwater\startup_stm
 ARM Macro Assembler    Page 14 
 
 
-32f407xx.o -IC:\Users\Daisy\Desktop\TEST\0501_LEDWater\MDK-ARM\RTE -IC:\Keil_v5
-\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DF
-P\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__UVISION_VERSI
-ON SETA 521" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --list
-=startup_stm32f407xx.lst startup_stm32f407xx.s
+32f407xx.o -ID:\embed\myrepository\xcc-embed-202401-2411020008\lab01_led\0501_L
+EDWater\MDK-ARM\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Ke
+il_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Incl
+ude --predefine="__UVISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --prede
+fine="STM32F407xx SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
 
 
 
